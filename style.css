@@ -980,6 +980,22 @@ form{
 /* Media1 query for smaller screens */
 @media screen and (max-width: 912px) 
 {
+  .how-we-are {
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+  }
+
+  .welcomimg{
+    width: 100%;
+  }
+  .welcomText{
+    width: 100%;
+    order: 2;
+  }
+
+
+
   .mode-toggle{
     margin-right: 2px;
   }
@@ -1642,3 +1658,54 @@ textarea::placeholder {
   width: 100%;
 }
 
+.principal-howweare{
+  display: flex;
+  justify-content: center;
+}
+
+.how-we-are {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-color);
+  width: 90%;
+  min-height: 400px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 0;
+
+}
+
+.welcomText{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  min-width: 40%;
+  height: max-content;
+  text-align: right;
+  color: var(--text-color);
+  border-radius: 20px;
+  background-color: var(--background-color);
+  filter :drop-shadow(2px 2px 5px  var(--text-color));
+  padding: 0;
+  
+}
+.welcomText h4{
+  padding-right: 10px;
+}
+.welcomimg{
+  
+  min-width: 50%;
+  height: 100%;
+}
+.imagewelcom{
+  width: 100%;
+  height: 100%;
+}
+
+.imagewelcom img{
+  width: 100%;
+  height: 100%;
+  filter :drop-shadow(10px 10px 20px var(--text-color));
+  
+}
