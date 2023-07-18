@@ -99,8 +99,7 @@ function toggleMenu() {
 
 
 
-if (window.location.pathname.endsWith('/index.html')) 
-{
+
 
   var currentContentIndex = 0;
   var content = [
@@ -280,7 +279,7 @@ if (window.location.pathname.endsWith('/index.html'))
     var answer = document.getElementById("answer" + questionNumber);
     answer.classList.toggle("active");
   }
-}
+
 
 
 
