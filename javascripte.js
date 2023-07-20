@@ -99,7 +99,7 @@ function toggleMenu() {
 
 
 if (window.location.pathname.endsWith('/index.html')) 
-
+{
   var currentContentIndex = 0;
   var content = [
     { image: "images/laboElhoria.png", title: " استخدام تقنيات ومعدات عالية الجودة ", description: "تقدم خدمتنا خبرة لا مثيل لها باستخدام تقنيات ومعدات عالية الجودة. نحن ملتزمون بتقديم حلول موثوقة وفعالة ، باستخدام أحدث المعدات والتقنيات المتقدمة. بفضل بحثنا المستمر عن أفضل الطرق والتقنيات الأكثر تقدمًا " },
