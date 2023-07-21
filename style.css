@@ -1665,7 +1665,6 @@ textarea::placeholder {
 
 .how-we-are {
   display: flex;
-  flex-direction : column;
   justify-content: center;
   background-color: var(--background-color);
   width: 90%;
