@@ -208,7 +208,7 @@ nav ul li  a {
   padding-bottom: 30px;
 }
 .container {
-  background-image: url('images/firstPhoto.jpg');
+  background-image: url('https://imagesforstudio.file.core.windows.net/firstphoto/firstPhoto.jpg?sv=2022-11-02&ss=bqtf&srt=sco&sp=rwdlacuptfxy&se=2023-07-21T09:56:54Z&sig=25FMkipEka%2F3fUIfTYkkvl5bWmFVzXJl7s%2BdzlwRPj8%3D&_=1689904905844');
   background-size: cover;
   background-position: center;
   padding: 20px;
